@@ -5,9 +5,11 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Yay, see you on the 18th!";
+  question.innerHTML = "HEHE, see you sooon!";
   gif.src =
-    "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
+    "https://s3.getstickerpack.com/storage/uploads/sticker-pack/line-brown-cony/sticker_2.gif?55cf5a68ce4dc46c2b1b407c5be20387"; 
+  yesBtn.style.display = "none";
+  noBtn.style.display = "none";
 });
 
 noBtn.addEventListener("mouseover", () => {
